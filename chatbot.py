@@ -7,7 +7,7 @@ import subprocess
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot("970649444:AAG8_3GgyYQQA0lJcyivQ14xEtIYDxcYniw") # It's something like 123456789:ABCd1eFg2HijklmnOpqrstUvWXyz12A345
+bot = telebot.TeleBot("") #It's something like 123456789:ABCd1eFg2HijklmnOpqrstUvWXyz12A345
 
 @bot.message_handler(commands=['start']) # This will react to the /start command
 def send_welcome(message):
